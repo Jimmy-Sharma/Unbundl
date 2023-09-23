@@ -1,0 +1,447 @@
+#container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #afb5b9;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 25px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+    background-color: transparent;
+}
+
+@keyframes fadeInDown {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+.navbar p{
+    color: white;
+}
+.fixed-navbar p{
+    color: rgb(0, 0, 0);
+}
+
+.navbar img {
+    width: 20px;
+    height: 20px;
+}
+.menu-Btn{
+    display: none;
+}
+
+.navbar-first {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar-first-sub {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-second {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-third {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.first-slider{
+    width: 100%;
+}
+.first-slider-image img {
+    width: 100%;
+}
+
+.first-slider-image {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.first-slider-heading {
+    font-size: 35px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.first-slider-bio {
+    font-family: ApercuPro-Light, Source Sans Pro, Helvetica, sans-serif;
+    line-height: 26px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: lighter;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.first-slider-btn {
+    padding: 20px;
+    border: none;
+    background-color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.first-slider-btn:hover {
+    background-color: rgb(102, 88, 88);
+    color: #face93;
+}
+
+.second-slider {
+    text-align: center;
+}
+
+.second-slider-carousel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.second-slider-arrow button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.second-slider-arrow img {
+    width: 40px;
+    height: 40px;
+}
+
+.second-slider-image {
+    position: relative;
+}
+
+.second-slider-text {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-family: ApercuPro-Light, Source Sans Pro, Helvetica, sans-serif;
+}
+
+.middle-section-container {
+    display: flex;
+    padding: 200px;
+    align-items: center;
+    gap: 60px;
+}
+
+.middle-section-special {
+    background-color: #f9f6ef;
+    padding: 30px;
+}
+
+.meet-our-coaches {
+    display: flex;
+    padding: 200px;
+    align-items: center;
+    gap: 60px;
+    background-color: #f9f6ef;
+}
+
+.meet-our-coaches-top {
+    font-weight: bold;
+    font-family: ApercuPro-Light, Source Sans Pro, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.meet-our-coaches-heading {
+    font-size: 35px;
+}
+
+.meet-our-coaches-bio {
+    font-family: ApercuPro-Light, Source Sans Pro, Helvetica, sans-serif;
+    line-height: 26px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.meet-our-coaches-btn button {
+    width: 40%;
+    padding: 20px;
+    border: none;
+    background-color: #face93;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.meet-our-coaches-btn button:hover {
+    background-color: black;
+    color: #face93;
+}
+
+.the-pursuit-of-truly-naked-container {
+    width: 75%;
+    margin: auto;
+}
+
+.the-pursuit-of-truly-naked-heading {
+    font-size: 35px;
+}
+
+.the-pursuit-of-truly-naked-content {
+    width: 70%;
+    font-family: ApercuPro-Light, Source Sans Pro, Helvetica, sans-serif;
+    line-height: 26px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.the-pursuit-of-truly-naked-btn {
+    border: none;
+    font-weight: bold;
+    font-family: ApercuPro-Light, Source Sans Pro, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.the-nack-journal {
+    background-color: #f9f6ef;
+    padding: 20px;
+}
+
+.the-nack-journal-heading {
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+}
+
+.the-nack-journal-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.the-nack-journal-content-card {
+    width: 30%;
+}
+
+.the-nack-journal-content-card img {
+    width: 100%;
+    height: fit-content;
+}
+
+.the-nack-journal-content-card-top {
+    display: flex;
+    gap: 10px;
+}
+
+.the-nack-journal-content-card-top p {
+    font-size: 12px;
+    border-bottom: 1px solid black;
+}
+
+.the-nack-journal-content-card-heading {
+    font-size: 22px;
+}
+
+.the-nack-journal-content-card-content {
+    font-family: ApercuPro-Light, Source Sans Pro, Helvetica, sans-serif;
+    line-height: 26px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.the-nack-journal-content-card-readmore-btn {
+    border: none;
+    background-color: #f9f6ef;
+    border-bottom: 2px solid #d79381;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer-top-part {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-social img {
+    width: 15px;
+    height: 15px;
+}
+
+.footer-links-container {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    gap: 45px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-links p {
+    border-bottom: 1px solid #face93;
+    width: fit-content;
+}
+
+.footer-stay-in-touch {
+    width: 33%;
+}
+
+.footer-stay-in-touch-heading p {
+    font-size: 30px;
+}
+
+.footer-stay-in-touch-input input {
+    width: 80%;
+    background-color: black;
+    border: 1px solid #face93;
+    padding: 20px;
+}
+
+.footer-stay-in-touch-terms {
+    display: flex;
+}
+
+.footer-stay-in-touch-terms div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-stay-in-touch-btn button {
+    width: 88%;
+    background-color: #face93;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer-bottom-part {
+    border-top: 1px solid #9699ac;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-bottom-part p {
+    font-size: 20px;
+    color: #9699ac;
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .menu-Btn{
+        display: block;
+    }
+    .diplay-none{
+        display: none;
+    }
+    .meet-our-coaches-btn button{
+        width: 100%;
+    }
+    
+    .first-slider-image img{
+        width: 120%;
+    }
+    .the-nack-journal{
+        width: 120%;
+    }
+    .the-nack-journal-content-card-top{
+        flex-wrap: wrap;
+    }
+    .footer{
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu-Btn{
+        display: block;
+    }
+    .diplay-none{
+        display: none;
+    }
+    .meet-our-coaches-btn button{
+        width: 100%;
+    }
+    p{
+        flex-wrap: wrap;
+    }
+    .small-screen-none{
+        display: none;
+    }
+    .small-screen-grid{
+        display: grid;
+    }
+    img{
+        max-width: 100%;
+    }
+    div{
+        max-width: 100%;
+    }
+    .first-slider{
+        width: 90%;
+    }
+}

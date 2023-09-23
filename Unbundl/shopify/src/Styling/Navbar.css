@@ -1,0 +1,28 @@
+#navbar {
+    box-shadow: rgb(189, 186, 186) 0px 19px 38px, rgb(234, 231, 231) 0px 15px 12px;
+    --s: 50px;
+    --c: #191b22;
+    --_s: calc(2*var(--s)) calc(2*var(--s));
+    --_g: 35.36% 35.36% at;
+    --_c: #0000 66%, #20222a 68% 70%, #0000 72%;
+    background:
+        radial-gradient(var(--_g) 100% 25%, var(--_c)) var(--s) var(--s)/var(--_s),
+        radial-gradient(var(--_g) 0 75%, var(--_c)) var(--s) var(--s)/var(--_s),
+        radial-gradient(var(--_g) 100% 25%, var(--_c)) 0 0/var(--_s),
+        radial-gradient(var(--_g) 0 75%, var(--_c)) 0 0/var(--_s),
+        repeating-conic-gradient(var(--c) 0 25%, #0000 0 50%) 0 0/var(--_s),
+        radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
+    background-attachment: fixed;
+    border: 1px solid rgba(255, 255, 255, 0.255)
+}
+
+#cart-Btn button {
+    background-color: #191b22;
+    box-shadow: rgba(255, 255, 255, 0.33) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.33) 0px 18px 36px -18px inset;
+    color: white;
+}
+
+#cart-Btn button:hover {
+    background-color: aliceblue;
+    color: #191b22;
+}
